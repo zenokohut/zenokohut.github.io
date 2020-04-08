@@ -1,0 +1,59 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #222;
+  }
+  
+  .doboz {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .jobb {
+    width: 60vw;
+  }
+  
+  .idezet {
+    width: 35vw;
+    height: max-content;
+    color: white;
+    background: #222;
+    text-align: left;
+    position: relative;
+    font-size: 3em;
+    font-family: 'Abril Fatface', cursive;
+  }
+  
+  .kep {
+    background-image: url("first-website-header.png");
+    background-size: cover;
+    background-position: -150px;
+    height: 300px;
+    width: 35vw;
+    position: relative;
+    font-family: 'Abril Fatface', cursive;
+  }
+  /*blockquote {
+    padding: 30px;
+    color: white;
+    background: #222;
+    text-align: left;
+    position: relative;
+    font-size: 3em;
+    font-family: 'Abril Fatface', cursive;
+  }*/
+  
+  blockquote::before {
+    content: '“';
+    position: absolute;
+    top: 5px;
+    left: 15px;
+    font-size: 80px; 
+  }
+  
+  @media {
+    
+  }
